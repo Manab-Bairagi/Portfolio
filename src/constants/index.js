@@ -105,16 +105,16 @@ const techStack = [
     items: ["C", "C++", "Python", "JavaScript"],
   },
   {
-    category: "Backend & Infra",
-    items: ["Node.js", "Express.js", "Flask", "System Design"],
+    category: "Backend",
+    items: ["Node.js", "Express.js", "Flask", "Design"],
   },
   {
-    category: "Cloud",
-    items: ["Docker", "Microservices", "API Gateway"],
+    category: "Frontend",
+    items: ["React", "Next.js", "Three.js", "GSAP"],
   },
   {
     category: "AI & Data",
-    items: ["PyTorch", "Keras", "scikit-learn", "pandas", "NumPy"],
+    items: ["PyTorch", "Keras", "scikit-learn", "pandas"],
   },
   {
     category: "Databases",
