@@ -8,11 +8,11 @@ export default defineConfig({
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
-      '#components': resolve(_dirname(fileURLToPath(import.meta.url)), 'components'),
-      '#pages': resolve(_dirname(fileURLToPath(import.meta.url)), 'pages'),
-      '#store': resolve(_dirname(fileURLToPath(import.meta.url)), 'store'),
-      '#hoc': resolve(_dirname(fileURLToPath(import.meta.url)), 'hoc'),
-      '#windows': resolve(_dirname(fileURLToPath(import.meta.url)), 'windows'),
+      '#components': resolve(dirname(fileURLToPath(import.meta.url)), 'components'),
+      '#pages': resolve(dirname(fileURLToPath(import.meta.url)), 'pages'),
+      '#store': resolve(dirname(fileURLToPath(import.meta.url)), 'store'),
+      '#hoc': resolve(dirname(fileURLToPath(import.meta.url)), 'hoc'),
+      '#windows': resolve(dirname(fileURLToPath(import.meta.url)), 'windows'),
     },
   },
 })
