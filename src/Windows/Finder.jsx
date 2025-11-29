@@ -4,15 +4,18 @@ import WindowWrapper from "../hoc/WindowWrapper.jsx"
 import { useLocationStore } from "../store/location"
 import { locations } from "../constants"
 import clsx from "clsx"
+import { useWindowStore } from "../store/Windows"
 const Finder = () => {
     const {activeLocation,setActiveLocation} = useLocationStore()
-
+    const {openWindow} = useWindowStore()
     const openItem = (item) => {
-        if(item.type === "folder") {
-            setActiveLocation(item)
-        } else {
-            
-        }
+        if(item.fileType === "pdf") return openWindow("resume")
+        if(item.kind === "folder") return setActiveLocation(item)
+        if(['fig','url'].includes(item.fileType) && item.href) return window.open(item.href,'_blank')
+        if(item.fileType === "url") return openWindow(item.href,"_blank")
+        
+        openWindow(`${item.fileType}${item.kind}`,item)
+        
     }
 
     const renderList = (items) => items.map((item)=>(
@@ -42,7 +45,7 @@ const Finder = () => {
                 </ul>
             </div>
             <div>
-                <h3>Work</h3>
+                <h3>My Projects</h3>
                 <ul>
                     {renderList(locations.work.children)}
 

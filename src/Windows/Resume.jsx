@@ -15,7 +15,7 @@ const Resume = () => {
   return (
     <>
     <div id="window-header">
-        <WindowsControls target ='resume'/>
+        <WindowsControls target ='resume' allowMaximize={false}/>
         <h2>Resume.pdf</h2>
         <a href="public/files/resume.pdf" download className="cursor-pointer" title="Download Resume">
         <Download className="icon"/>

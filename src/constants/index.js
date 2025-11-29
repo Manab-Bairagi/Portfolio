@@ -227,7 +227,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Uni Exam Mgmt System",
+      name: "Uni Exam System",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5",
@@ -248,11 +248,11 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "Live Demo",
+          name: "Code Base",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://github.com/Manab-Bairagi",
+          href: "https://github.com/Manab-Bairagi/UEMS",
           position: "top-10 right-20",
         },
       ],
@@ -288,6 +288,15 @@ const WORK_LOCATION = {
           href: "https://edith-sigma.vercel.app/sign-in",
           position: "top-20 left-20",
         },
+        {
+          id: 3,
+          name: "Website.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: 'images/project-2.png',
+          position: "top-5 left-45",
+        },
       ],
     },
 
@@ -302,10 +311,11 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Project Info.txt",
-          icon: "/images/txt.png",
+          name: "Project Details.pdf",
+          icon: "/images/pdf.png",
           kind: "file",
-          fileType: "txt",
+          fileType: "url",
+          href: 'https://drive.google.com/file/d/1pFhQmG7IVri7VafYBuANh2oxcAGBVtJt/view?usp=sharing',
           position: "top-5 left-10",
           description: [
             "Super Resolution Deep Learning Model.",
@@ -313,30 +323,14 @@ const WORK_LOCATION = {
             "Used for identification of land and features for monitoring vegetation.",
           ],
         },
-      ],
-    },
-
-    // ▶ Project 4
-    {
-      id: 8,
-      name: "Glacial Lake Detection",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-40 left-5",
-      windowPosition: "top-[40vh] left-10",
-      children: [
         {
-          id: 1,
-          name: "Project Info.txt",
-          icon: "/images/txt.png",
+          id: 2,
+          name: "Certificate.png",
+          icon: "/images/image.png",
           kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "Glacial lake and glacier detection using Deep Learning.",
-            "Created a custom deep learning model with custom loss function to identify and classify unbalanced satellite image data.",
-            "Predicts glacial lake floods for sustainable development near vulnerable regions.",
-          ],
+          fileType: "img",
+          imageUrl: 'images/Hack2skill-Certificate.png',
+          position: "top-5 left-45",
         },
       ],
     },
@@ -362,6 +356,24 @@ const WORK_LOCATION = {
             "Empowers students, researchers, and developers to visually build, analyze, and export deep learning models without boilerplate code.",
           ],
         },
+        {
+          id: 2,
+          name: "Code Base",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/Manab-Bairagi/DL-Studio",
+          position: "top-10 right-20",
+        },
+        {
+          id: 3,
+          name: "Website.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: 'images/project-3.png',
+          position: "top-5 left-45",
+        },
       ],
     },
   ],
@@ -381,7 +393,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/manab.jpg",
     },
     {
       id: 2,
@@ -390,7 +402,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/manab-2.jpg",
     },
     {
       id: 3,
@@ -399,7 +411,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/manab-3.jpg",
     },
     {
       id: 4,
@@ -409,7 +421,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Manab Bairagi",
-      image: "/images/adrian.jpg",
+      image: "/images/manab-3.jpg",
       description: [
         "Hi I am Manab Bairagi, a motivated Computer Science and Engineering undergraduate with 8.0 CGPA.",
         "Proven experience in deep learning, machine learning, cloud storage solutions, and backend development.",
