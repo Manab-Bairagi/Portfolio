@@ -77,26 +77,28 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    title: 'Edith: AI Mock Interviewer',
+    url: 'https://edith-sigma.vercel.app/sign-in', 
+    type: 'website',
+    description: 'AI-powered mock interviewer with real-time voice feedback.',
+    image: '/images/blog1.png' 
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    title: 'ISRO Hackathon: Super Resolution',
+    url: 'https://drive.google.com/file/d/1pFhQmG7IVri7VafYBuANh2oxcAGBVtJt/view?usp=sharing', 
+    type: 'presentation',
+    description: 'Self made deep learning model for upscaling satellite imagery using Deep Learning.',
+    image: '/images/blog2.png'
   },
   {
-    id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-  },
+    id: 3  ,
+    title: 'DL Studio',
+    url: 'https://github.com/Manab-Bairagi/DL-Studio', 
+    type: 'github',
+    description: 'Interactive platform for deep learning education.',
+    image: '/images/blog3.png'
+  }
 ];
 
 const techStack = [
@@ -132,14 +134,14 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/",
+    link: "https://github.com/Manab-Bairagi",
   },
   {
     id: 2,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/manab-bairagi-886710256/",
   },
   {
     id: 3,
@@ -250,7 +252,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://github.com/",
+          href: "https://github.com/Manab-Bairagi",
           position: "top-10 right-20",
         },
       ],
@@ -283,7 +285,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://edith-live-link.com",
+          href: "https://edith-sigma.vercel.app/sign-in",
           position: "top-20 left-20",
         },
       ],
