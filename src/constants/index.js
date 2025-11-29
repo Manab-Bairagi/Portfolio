@@ -477,7 +477,7 @@ export const locations = {
 const INITIAL_Z_INDEX = 1000;
 
 const WINDOW_CONFIG = {
-  finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null, size: { width: "65vw", height: "65vh" } },
   contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },

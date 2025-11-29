@@ -42,9 +42,10 @@ const WindowWrapper = (Component, windowKey) => {
                 })
             }else{
                 instance.enable()
+                const { width, height } = windows[windowKey].size || { width: "auto", height: "auto" }
                 gsap.to(el,{
-                    width:"auto",
-                    height:"auto",
+                    width,
+                    height,
                     duration:0.2,
                     ease:"power2.inOut"
                 })
