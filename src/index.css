@@ -245,51 +245,37 @@ body {
       h2 {
         @apply text-xs font-medium text-gray-400 mb-1;
       }
-
-      ul {
-        li {
-          @apply flex space-y-1 items-center gap-2 px-3 py-2 rounded-md cursor-pointer transition-colors;
-
-          &:first-child {
-            @apply bg-blue-100 text-blue-700;
-          }
-
-          img {
-            @apply w-4;
-          }
-
-          p {
-            @apply text-sm font-medium;
-          }
-        }
-      }
     }
 
-    .gallery {
-      @apply p-5;
+    ul {
+      li {
+        @apply flex space-y-1 items-center gap-2 px-3 py-2 rounded-md cursor-pointer transition-colors;
 
-      ul {
-        @apply grid grid-cols-5 grid-rows-5 gap-2.5;
+        &:first-child {
+          ul {
+            @apply grid grid-cols-5 grid-rows-5 gap-2.5;
 
-        li {
-          img {
-            @apply size-full object-cover rounded-lg;
-          }
+            li {
+              img {
+                @apply size-full object-cover rounded-lg;
+              }
 
-          &:first-child {
-            @apply row-start-1 row-span-3 col-start-1 col-span-3;
-          }
+              &:first-child {
+                @apply row-start-1 row-span-3 col-start-1 col-span-3;
+              }
 
-          &:nth-child(2) {
-            @apply row-start-1 row-span-3 col-start-4 col-span-2;
-          }
+              &:nth-child(2) {
+                @apply row-start-1 row-span-3 col-start-4 col-span-2;
+              }
 
-          &:nth-child(3) {
-            @apply row-start-4 row-span-2 col-start-3 col-span-3;
-          }
+              &:nth-child(3) {
+                @apply row-start-4 row-span-2 col-start-3 col-span-3;
+              }
 
-          &:last-child {
-            @apply row-start-4 row-span-2 col-start-1 col-span-2;
+              &:last-child {
+                @apply row-start-4 row-span-2 col-start-1 col-span-2;
+              }
+            }
           }
         }
       }
@@ -374,6 +360,10 @@ body {
         @apply w-full h-fit object-contain object-center;
       }
     }
+  }
+
+  #photos {
+    @apply w-4xl h-[70vh] absolute top-20 left-40 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
   }
 
   #home {

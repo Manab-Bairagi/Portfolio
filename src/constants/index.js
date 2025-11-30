@@ -68,9 +68,9 @@ const dockApps = [
   },
   {
     id: "trash",
-    name: "Archive",
+    name: "Trash",
     icon: "trash.png",
-    canOpen: false,
+    canOpen: true,
   },
 ];
 
@@ -146,7 +146,7 @@ const socials = [
   {
     id: 3,
     text: "Email",
-    icon: "/icons/email.svg",
+    icon: "public/icons/email.svg",
     bg: "#ff866b",
     link: "mailto:manab04.bairagi@gmail.com",
   },
@@ -190,19 +190,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/manab.jpg",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/project-1.png",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/manab-2.jpg",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/project-2.png",
   },
 ];
 
@@ -231,7 +231,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5",
-      windowPosition: "top-[5vh] left-5",
+      windowPosition: "top-[50vh] left-50",
       children: [
         {
           id: 1,
@@ -265,7 +265,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-40",
-      windowPosition: "top-[20vh] left-7",
+      windowPosition: "top-[20vh] left-[20vw]",
       children: [
         {
           id: 1,
@@ -307,7 +307,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      windowPosition: "top-[33vh] left-[70vw]",
       children: [
         {
           id: 1,
@@ -342,7 +342,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-40 left-40",
-      windowPosition: "top-[45vh] left-15",
+      windowPosition: "top-[5vh] left-[82vw]",
       children: [
         {
           id: 1,

@@ -23,7 +23,7 @@ const TextFile = () => {
                     )}
                     
                     <div className="space-y-2">
-                        <h1 className="text-3xl font-bold text-gray-800">{data.name}</h1>
+                        {/* <h1 className="text-3xl font-bold text-gray-800">{data.name}</h1> */}
                         {data.subtitle && (
                             <p className="text-lg text-gray-500 font-medium">{data.subtitle}</p>
                         )}
